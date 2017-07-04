@@ -1,1 +1,1 @@
-GLOG_logtosterr=1 /path/to/your/C3D/installation/build/tools/extract_image_features.bin feature_extraction_deepSBD.prototxt path/to/models/c3d_iter_iter_100000 1 45 6263 /path/to/your/input/list/of/the/desired/dataset/rai_segments_features.dsbdn6 fc8
+GLOG_logtosterr=1 /path/to/your/C3D/installation/build/tools/extract_image_features.bin feature_test.prototxt path/to/models/c3d_iter_iter_100000 1 45 6263 /path/to/your/input/list/of/the/desired/dataset/rai_segments_features.dsbdn6 fc8
