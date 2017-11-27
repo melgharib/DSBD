@@ -1,0 +1,1 @@
+GLOG_logtosterr=1 /export/ds/mamdouh/deepLearning/C3D/build/tools/extract_image_features.bin feature_extraction_frm.prototxt ../models/c3d_iter_iter_95000 0 45 297 ../data/features.txt pool5 fc6 fc7 fc8 prob
