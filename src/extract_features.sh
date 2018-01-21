@@ -1,1 +1,1 @@
-GLOG_logtosterr=1 /path/to/your/C3D/installation/build/tools/extract_image_features.bin feature_test.prototxt path/to/models/c3d_iter_iter_100000 1 45 6263 /path/to/your/input/list/of/the/desired/dataset/rai_segments_features.dsbdn6 fc8
+GLOG_logtosterr=1 /home/qcri/deeplearning/C3D/C3D-v1.0/build/tools/extract_image_features.bin feature_test.prototxt c3d_trans_iter_40000 0 100 4000 /data/mamdouh/nist/c3dmodel/p12w1n1c0/io/test/rai/rai_segments_features.synbs fc8 #fc7 fc6 #conv1 conv2 conv3 conv4 conv5 pool1 pool2 pool5
